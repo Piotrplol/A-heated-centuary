@@ -1,0 +1,119 @@
+SOV_the_other_seven_cat = {
+	
+	SOV_pro_military_campaign = {
+		visible = {
+			NOT = { has_country_flag = SOV_yazov_did_a_little_trolling }
+			has_government = communist
+		}
+		available = {
+			has_completed_focus = SOV_Yanayevs_union
+			has_government = communist
+		}
+		complete_effect = {
+		SOV_increase_yazov_influence_5 = yes
+		army_experience = 10
+		}
+		
+		icon = GFX_decision_generic_military
+		
+		fire_only_once = no
+		cost = SOV_gang_of_eight_decision_cost
+	}
+	
+	SOV_work_with_the_party = {
+		visible = {
+			NOT = { has_country_flag = SOV_yazov_did_a_little_trolling }
+			has_government = communist
+		}
+		available = {
+			has_completed_focus = SOV_Yanayevs_union
+			has_government = communist
+		}
+		complete_effect = {
+		add_stability = -0.1
+		SOV_increase_relations_with_valentin_5 = yes
+		SOV_increase_relations_with_boris_5 = yes
+		}
+		
+		icon = GFX_decision_eng_trade_unions_demand
+		
+		fire_only_once = no
+		cost = SOV_gang_of_eight_decision_cost
+	}
+	
+	SOV_support_kgb = {
+		visible = {
+			NOT = { has_country_flag = SOV_yazov_did_a_little_trolling }
+			has_government = communist
+		}
+		available = {
+			has_completed_focus = SOV_Yanayevs_union
+			has_government = communist
+		}
+		complete_effect = {
+		add_stability = -0.05
+		SOV_increase_relations_with_Vladimir_10 = yes
+		add_popularity = {
+				ideology = communist
+				popularity = 0.02
+			}
+		}
+		
+		icon = GFX_decision_generic_arrest
+		
+		fire_only_once = no
+		cost = SOV_gang_of_eight_decision_cost
+	}
+	
+	SOV_divert_funding_towards_state_enterprieses = {
+		visible = {
+			NOT = { has_country_flag = SOV_yazov_did_a_little_trolling }
+			has_government = communist
+		}
+		available = {
+			has_completed_focus = SOV_Yanayevs_union
+			has_government = communist
+		}
+		complete_effect = {
+		SOV_increase_relations_with_Aleksandr_5 = yes
+		SOV_decrease_relations_with_Vasiliy_influence_2_5 = yes
+		random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		icon = GFX_decision_generic_merge_plant_materiel
+		
+		fire_only_once = no
+		cost = SOV_gang_of_eight_decision_cost
+	}
+	
+	SOV_divert_funding_towards_state_owned_farms = {
+		visible = {
+			NOT = { has_country_flag = SOV_yazov_did_a_little_trolling }
+			has_government = communist
+		}
+		available = {
+			has_completed_focus = SOV_Yanayevs_union
+			has_government = communist
+		}
+		complete_effect = {
+		SOV_increase_relations_with_Vasiliy_5 = yes
+		SOV_decrease_relations_with_Aleksandr_influence_2_5 = yes
+		random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 20000
+			}
+		}
+		
+		icon = GFX_decision_bul_fund_bzns
+		
+		fire_only_once = no
+		cost = SOV_gang_of_eight_decision_cost
+	}
+	
+}

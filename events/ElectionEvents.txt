@@ -1,0 +1,379 @@
+﻿add_namespace = election
+
+#Actual Election
+country_event = {
+	id = election.2
+	title = election.1.t
+	desc = election.1.d
+	picture = GFX_report_event_election
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			NOT = { has_idea = idea_USA_political_establishment }
+			#NOT = { tag = USA }
+		}
+		NOT = { has_country_flag = russia_election_2000 }
+		NOT = { has_idea = government_system_provisional }
+	}
+	
+	immediate = { dynamic_leader_effect = yes }
+	
+	option = { # ruling party
+		name = election.1.o1
+		trigger = {
+			OR = {
+				AND = { # less developed
+					OR = {
+						has_idea = national_development_developing
+						has_idea = national_development_undeveloped
+					}
+					OR = {
+						AND = {
+							has_government = communist
+							communist > 0.2
+						}
+						AND = {
+							has_government = socialism
+							socialism > 0.2
+						}
+						AND = {
+							has_government = moderate_left_wing
+							moderate_left_wing > 0.2
+						}
+						AND = {
+							has_government = moderate_left_wing
+							moderate_left_wing > 0.2
+						}
+						AND = {
+							has_government = centrist_deocracy
+							centrist_deocracy > 0.2
+						}
+						AND = {
+							has_government = moderate_right_wing
+							moderate_right_wing > 0.2
+						}
+						AND = {
+							has_government = moderate_right_wing
+							moderate_right_wing > 0.2
+						}
+						AND = {
+							has_government = moderate_right_wing
+							moderate_right_wing > 0.2
+						}
+						AND = {
+							has_government = authoritarianism
+							authoritarianism > 0.2
+						}
+						AND = {
+							has_government = authoritarianism
+							authoritarianism > 0.2
+						}
+						AND = {
+							has_government = far_right
+							far_right > 0.2
+						}
+						AND = {
+							has_government = authoritarianism
+							authoritarianism > 0.2
+						}
+						AND = {
+							communist < 0.3
+							socialism < 0.3
+							moderate_left_wing < 0.3
+							moderate_left_wing < 0.3
+							centrist_deocracy < 0.3
+							moderate_right_wing < 0.3
+							moderate_right_wing < 0.3
+							moderate_right_wing < 0.3
+							authoritarianism < 0.3
+							authoritarianism < 0.3
+							far_right < 0.3
+							authoritarianism < 0.3
+						}
+					}
+				}
+				AND = { # developed
+					OR = {
+						has_idea = national_development_advanced
+						has_idea = national_development_developed
+					}
+					OR = {
+						AND = {
+							has_government = communist
+							communist > 0.2
+						}
+						AND = {
+							has_government = socialism
+							socialism > 0.2
+						}
+						AND = {
+							has_government = moderate_left_wing
+							moderate_left_wing > 0.2
+						}
+						AND = {
+							has_government = moderate_left_wing
+							moderate_left_wing > 0.2
+						}
+						AND = {
+							has_government = centrist_deocracy
+							centrist_deocracy > 0.2
+						}
+						AND = {
+							has_government = moderate_right_wing
+							moderate_right_wing > 0.2
+						}
+						AND = {
+							has_government = moderate_right_wing
+							moderate_right_wing > 0.2
+						}
+						AND = {
+							has_government = moderate_right_wing
+							moderate_right_wing > 0.2
+						}
+						AND = {
+							has_government = authoritarianism
+							authoritarianism > 0.2
+						}
+						AND = {
+							has_government = authoritarianism
+							authoritarianism > 0.2
+						}
+						AND = {
+							has_government = far_right
+							far_right > 0.2
+						}
+						AND = {
+							has_government = authoritarianism
+							authoritarianism > 0.2
+						}
+						AND = {
+							socialism < 0.3
+							moderate_left_wing < 0.3
+							moderate_left_wing < 0.3
+							centrist_deocracy < 0.3
+							moderate_right_wing < 0.3
+							moderate_right_wing < 0.3
+							moderate_right_wing < 0.3
+							authoritarianism < 0.3
+							authoritarianism < 0.3
+						}
+					}
+				}
+			}
+		}
+		add_political_power = 20
+		
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = election.1.o2
+		trigger = {
+			NOT = { has_government = authoritarianism }
+			authoritarianism > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = authoritarianism
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o3
+		trigger = {
+			NOT = { has_government = far_right }
+			far_right > 0.299
+			NVX_election_vote_auth = yes
+		}
+		NVX_election_system_from_demo = yes
+		set_politics = {
+			ruling_party = far_right
+			elections_allowed = no
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o4
+		trigger = {
+			NOT = { has_government = authoritarianism }
+			authoritarianism > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = authoritarianism
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o5
+		trigger = {
+			NOT = { has_government = authoritarianism }
+			authoritarianism > 0.299
+			NVX_election_vote_auth = yes
+		}
+		NVX_election_system_to_monarchy = yes
+		set_politics = {
+			ruling_party = authoritarianism
+			elections_allowed = no
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o6
+		trigger = {
+			NOT = { has_government = moderate_right_wing }
+			moderate_right_wing > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = moderate_right_wing
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o7
+		trigger = {
+			NOT = { has_government = moderate_right_wing }
+			moderate_right_wing > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = moderate_right_wing
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o8
+		trigger = {
+			NOT = { has_government = moderate_right_wing }
+			moderate_right_wing > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = moderate_right_wing
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o9
+		trigger = {
+			NOT = { has_government = centrist_deocracy }
+			centrist_deocracy > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = centrist_deocracy
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o10
+		trigger = {
+			NOT = { has_government = moderate_left_wing }
+			moderate_left_wing > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = moderate_left_wing
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o11
+		trigger = {
+			NOT = { has_government = moderate_left_wing }
+			moderate_left_wing > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = moderate_left_wing
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o12
+		trigger = {
+			NOT = { has_government = socialism }
+			socialism > 0.299
+		}
+		NVX_election_system_from_auth = yes
+		set_politics = {
+			ruling_party = socialism
+			elections_allowed = yes
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = election.1.o13
+		trigger = {
+			NOT = { has_government = communist }
+			communist > 0.299
+			NVX_election_vote_auth = yes
+		}
+		NVX_election_system_from_demo = yes
+		set_politics = {
+			ruling_party = communist
+			elections_allowed = no
+		}
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+}

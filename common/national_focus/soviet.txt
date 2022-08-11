@@ -1,0 +1,214 @@
+focus_tree = {
+
+	id = Soviet_start_tree
+	
+	country = {
+	factor = 12
+	}
+	
+	focus = {
+		id = SOV_Yanayevs_union
+		icon = SOV_Yanayevs_union
+		x = 8
+		y = 0
+		cost = 5
+		
+		completion_reward = {
+        custom_effect_tooltip = SOV_give_ability_to_use_start_dec_tt
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+    focus = {
+		id = SOV_the_soviet_army
+		icon = SOV_soldier
+		x = 5
+		y = 1
+		cost = 5
+		relative_position_id = SOV_Yanayevs_union
+
+		prerequisite = { focus = SOV_Yanayevs_union }
+		
+		completion_reward = {
+        army_experience = 25
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = SOV_the_soviet_politics
+		icon = SOV_commie_guide
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SOV_Yanayevs_union
+
+		prerequisite = { focus = SOV_Yanayevs_union }
+		
+		completion_reward = {
+        add_political_power = 50
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = SOV_consult_the_proffesionals
+		icon = SOV_scientist
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SOV_the_soviet_politics
+
+		prerequisite = { focus = SOV_the_soviet_politics }
+		
+		completion_reward = {
+        custom_effect_tooltip = SOV_increase_economic_health_by_4_tt
+	    add_to_variable = { NVX_ECO_health = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = SOV_concessions_to_premier
+		icon = SOV_work_with_Pavlov
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = SOV_consult_the_proffesionals
+
+		mutually_exclusive = {
+		focus = SOV_in_the_enterior_ministry
+		}
+		
+		mutually_exclusive = {
+		focus = SOV_reinvofce_kgb
+		}
+		
+		prerequisite = { focus = SOV_consult_the_proffesionals }
+		
+		completion_reward = {
+        SOV_increase_relations_with_valentin_10 = yes
+		add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = SOV_reinvofce_kgb
+		icon = SOV_work_with_Pavlov
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SOV_consult_the_proffesionals
+
+		mutually_exclusive = {
+		focus = SOV_in_the_enterior_ministry
+		}
+		
+		mutually_exclusive = {
+		focus = SOV_concessions_to_premier
+		}
+		
+		prerequisite = { focus = SOV_consult_the_proffesionals }
+		
+		completion_reward = {
+        SOV_increase_relations_with_Vladimir_10 = yes
+		add_war_support = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = SOV_in_the_enterior_ministry
+		icon = SOV_work_with_Pavlov
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = SOV_consult_the_proffesionals
+
+		mutually_exclusive = {
+		focus = SOV_reinvofce_kgb
+		}
+		
+		mutually_exclusive = {
+		focus = SOV_concessions_to_premier
+		}
+		
+		prerequisite = { focus = SOV_consult_the_proffesionals }
+		
+		completion_reward = {
+        SOV_increase_relations_with_boris_10 = yes
+		add_political_power = 50
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = SOV_a_more_united_party
+		icon = GFX_focus_SOV_the_supreme_soviet
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SOV_reinvofce_kgb
+
+		
+		prerequisite = { 
+		focus = SOV_in_the_enterior_ministry 
+		focus = SOV_reinvofce_kgb
+		focus = SOV_concessions_to_premier
+		}
+		
+		completion_reward = {
+        custom_effect_tooltip = SOV_gang_dec_now_cost_less_tt
+		add_to_variable = { var = SOV_gang_of_eight_decision_cost value = -10 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = SOV_the_soviet_economy
+		icon = SOV_worker_and_factory
+		x = -5
+		y = 1
+		cost = 5
+		relative_position_id = SOV_Yanayevs_union
+
+		prerequisite = { focus = SOV_Yanayevs_union }
+		
+		completion_reward = {
+        swap_ideas = {
+				remove_idea = SOV_economy_on_its_last_legs
+				add_idea = SOV_economy_on_its_last_legs_2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+}

@@ -1,0 +1,15 @@
+# Written and Edited by ME!
+
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_SOV_bad_economy"
+		texturefile = "gfx/interface/ideas/government/idea_SOV_bad_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_cpsu_chains"
+		texturefile = "gfx/interface/ideas/government/idea_SOV_cpsu_chains.dds"
+	}
+	
+}

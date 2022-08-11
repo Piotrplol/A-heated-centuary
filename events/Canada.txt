@@ -1,0 +1,40 @@
+﻿add_namespace = canada
+
+#Air Canada acquires Canadian Airlines
+country_event = {
+	id = canada.1
+	title = canada.1.t
+	desc = canada.1.d
+	picture = GFX_report_event_passenger_plane
+	
+	is_triggered_only = yes
+	
+	#Excellent!
+	option = {
+		name = canada.1.o1
+		air_experience = 15
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.02
+		}
+		
+		ai_chance = { factor = 95 }
+	}
+	
+	#We should probably stop monopolies in their wake.
+	option = {
+		name = canada.1.o2
+		add_stability = 0.01
+		add_political_power = -30
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.02
+		}
+		
+		ai_chance = { factor = 5 }
+	}
+}

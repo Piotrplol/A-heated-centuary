@@ -1,0 +1,40 @@
+
+state={
+	id=837
+	name="STATE_837"
+
+	history={
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		victory_points = {
+			7448 2 
+		}
+		victory_points = {
+			7584 2 
+		}
+		victory_points = {
+			12248 5 
+		}
+		victory_points = {
+			12314 2 
+		}
+		victory_points = {
+			12877 1 
+		}
+
+	}
+
+	provinces={
+		7448 7584 12248 12314 12877 
+	}
+	manpower=4624125
+	buildings_max_level_factor=1.000
+	state_category=state_level_6
+}

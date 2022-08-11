@@ -1,0 +1,188 @@
+﻿capital = 48
+
+oob = "BUL_2000"
+
+set_research_slots = 3
+set_convoys = 280
+set_stability = 0.4
+
+set_country_flag = country_language_bulgarian
+
+set_technology = {
+	## Infantry ##
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	motorised_infantry = 1
+	infantry_rifle_upgrade = 1
+	support_weapons = 1
+	night_vision = 1
+	body_armor = 1
+	camouflage = 1
+	tech_mountaineers = 1
+	paratroopers = 1
+	
+	## Support Companies ##
+	tech_support = 1
+	basic_train =1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	
+	## Armor ##
+	main_battle_tank1 = 1
+	main_battle_tank2 = 1
+	main_battle_tank3 = 1
+	light_tank1 = 1
+	light_tank2 = 1
+	mechanised_infantry1 = 1
+	light_mechanized_infantry1 = 1
+	
+	## Artillery ##
+	gw_artillery = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+	
+	## Air ##
+	CAS1 = 1
+	CAS2 = 1
+	fighter1 = 1
+	fighter2 = 1
+	fighter3 = 1
+	naval_bomber1 = 1
+	naval_bomber2 = 1
+	strategic_bomber1 = 1
+	tactical_bomber1 = 1
+	
+	## Engineering ##
+	electronic_mechanical_engineering = 1
+	
+	## Industry ##
+	basic_machine_tools = 1
+	
+	## Doctrines ##
+	mobile_warfare = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		smoke_generator = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_secondary_battery = 1
+		mtg_transport = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+add_ideas = {
+	government_system_parliamentary_republic
+	economy_growth
+	economy_tax_low
+	immigration_policy_loose_regulations
+	population_growth_decline
+}
+
+set_politics = {	
+	ruling_party = moderate_right_wing
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    authoritarianism = 1
+    far_right = 1
+    moderate_right_wing = 38
+    centrist_deocracy = 25
+    moderate_left_wing = 15
+    socialism = 10
+    communist = 10
+}
+
+2007.1.1 = {
+	add_ideas = {
+		idea_eu_member
+	}
+}
+
+
+2014.10.5 = {
+	oob = "BUL_2016"
+	set_politics = {	
+		ruling_party = centrist_deocracy
+		last_election = "2013.5.12"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		authoritarianism = 1
+		far_right = 1
+		moderate_right_wing = 2
+		moderate_right_wing = 25
+		moderate_right_wing = 6
+		centrist_deocracy = 30
+		moderate_left_wing = 5
+		moderate_left_wing = 10
+		socialism = 10
+		communist = 10
+	}
+}
+recruit_character = BUL_ivan_kostov
+recruit_character = BUL_boyko_borisov
+recruit_character = BUL_simeon_sakskoburggotski
+recruit_character = BUL_georgi_parvanov
+recruit_character = BUL_margarita_mileva
+recruit_character = BUL_stoyan_panchev
+recruit_character = BUL_aleksandar_karakachanov
+recruit_character = BUL_aleksandar_paunov
+recruit_character = BUL_krasimir_karakachanov
+recruit_character = BUL_volen_siderov_
+recruit_character = BUL_boyan_rasate_
+recruit_character = BUL_konstantin_popov
+recruit_character = BUL_andrei_botsev
+recruit_character = BUL_yavor_mateev
+recruit_character = BUL_tsanko_ivanov_stoykov
+recruit_character = BUL_petyo_mirchev
+recruit_character = BUL_anatoliy_krustev
+recruit_character = BUL_lyubcho_spasov_todorov
+recruit_character = BUL_todor_tzonev_dochev
+recruit_character = BUL_mihail_popov
+recruit_character = BUL_rumen_radev
+recruit_character = BUL_valeri_konstantin_tsolov
+recruit_character = BUL_kostadin_kuzmov
+recruit_character = BUL_dimitar_iliev
+recruit_character = BUL_rusi_rusev
+recruit_character = BUL_boyan_stavrev
+recruit_character = BUL_plamen_yordanov
+recruit_character = BUL_gruda_angelov
+recruit_character = BUL_yordan_yordanov
+recruit_character = BUL_atanas_lefterov
+recruit_character = BUL_georgi_petkov
+recruit_character = BUL_georgi_dimov
+recruit_character = BUL_emil_eftimov
+recruit_character = BUL_rumen_nikolov
+recruit_character = BUL_dimitar_vasilev_yordanov
+recruit_character = BUL_kosta_andreev
+recruit_character = BUL_mitko_alexander_petev
+recruit_character = BUL_boris_petrov

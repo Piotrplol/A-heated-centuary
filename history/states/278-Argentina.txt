@@ -1,0 +1,31 @@
+
+state={
+	id=278
+	name="STATE_278"
+	resources={
+		oil=13.000
+	}
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		victory_points = {
+			11005 2
+		}
+
+
+	}
+
+	provinces={
+		10981 11005 12349 12982 
+	}
+	manpower=552000
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}

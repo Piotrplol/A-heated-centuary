@@ -1,0 +1,7 @@
+SOV_the_other_seven_cat = {
+	icon = GFX_decision_category_SOV_civil_puppet_interaction
+
+	allowed = {
+		original_tag = SOV
+	}
+}

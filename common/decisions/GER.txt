@@ -1,0 +1,29 @@
+decisions_GER = {
+	unternehmenssteuerreform = {
+		visible = {
+			NOT = { has_country_flag = unternehmenssteuerreform }
+		}
+		
+		available = {
+			OR = {
+				has_government = moderate_left_wing
+				has_government = moderate_left_wing
+				has_government = socialism
+			}
+		}
+		
+		icon = economy
+		
+		cost = 65
+		fire_only_once = yes
+		
+		complete_effect = {
+			add_stability = 0.02
+			create_random_factory_CIV_1 = yes
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+	}
+}

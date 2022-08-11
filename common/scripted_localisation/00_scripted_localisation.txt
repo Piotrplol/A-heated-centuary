@@ -1,0 +1,24 @@
+defined_text = {
+	name = GETOLEGLOYALITY
+	text = {
+		trigger = {
+		NOT = {
+		has_country_flag = SOV_Oleg_loyal_to_Yanayev
+		has_country_flag = SOV_Oleg_loyal_to_Yazov
+		}
+		}
+		localization_key = SOV_oleg_undecided_loc
+	}
+	text = {
+		trigger = {
+		has_country_flag = SOV_Oleg_loyal_to_Yanayev
+		}
+		localization_key = SOV_oleg_Yanayev_loc
+	}
+	text = {
+		trigger = {
+		has_country_flag = SOV_Oleg_loyal_to_Yazov
+		}
+		localization_key = SOV_oleg_Yazov_loc
+	}
+}

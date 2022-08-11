@@ -1,0 +1,133 @@
+education_policy = {
+	
+	embrace_racial_theories = {
+		visible = {
+			NOT = { has_country_flag = racial_theories_in_schools }
+			far_right > 0.05
+		}
+		available = {
+			OR = {
+				is_subject = no
+				has_government = far_right
+			}
+			OR = {
+				far_right > 0.15
+				authoritarianism > 0.15
+			}
+			NOT = { has_government = communist }
+			NOT = { has_government = socialism }
+			NOT = { has_government = moderate_left_wing }
+			NOT = { has_government = centrist_deocracy }
+			NOT = { has_government = moderate_right_wing }
+		}
+		modifier = {
+		}
+		complete_effect = {
+			set_country_flag = racial_theories_in_schools
+			add_stability = -0.05
+			add_popularity = { ideology = far_right popularity = 0.03 }
+			every_country = {
+				limit = {
+					OR = {
+						is_neighbor_of = ROOT
+						is_in_faction_with = ROOT
+					}
+					is_subject = no
+					NOT = { has_government = far_right }
+					NOT = { has_country_flag = racial_theories_in_schools }
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = far_rightic_tendencies_negative
+				}
+			}
+			every_country = {
+				limit = {
+					OR = { 
+						has_government = far_right
+						has_country_flag = racial_theories_in_schools
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = far_rightic_tendencies_positive
+				}
+			}
+		}
+		
+		icon = fascism
+		
+		cost = 150
+		
+		ai_will_do = {
+			base = 0
+			modifier = { has_government = far_right add = 8 }
+			modifier = { has_government = authoritarianism add = 2 }
+		}
+	}
+	
+	encourage_enlightenment_values = {
+		visible = {
+			NOT = { has_country_flag = enlightenment_values_in_school }
+		}
+		available = {
+			OR = {
+				is_subject = no
+				has_democratic_form_of_government = yes
+			}
+			OR = {
+				NOT = { has_government = far_right }
+				far_right < 0.25
+			}
+		}
+		modifier = {
+		}
+		complete_effect = {
+			set_country_flag = enlightenment_values_in_school
+			if = { 
+				limit = { has_democratic_form_of_government = no }
+				add_stability = 0.04
+				add_war_support = -0.02
+			}
+			if = { 
+				limit = { has_democratic_form_of_government = yes }
+				add_stability = 0.01
+			}
+		}
+		
+		icon = democracy
+		
+		cost = 150
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	embrace_far_left_philosophy = {
+		visible = {
+			NOT = { has_country_flag = embraced_far_left_philosophy }
+			communist > 0.05
+		}
+		available = {
+			OR = {
+				has_government = communist
+				communist > 0.1
+			}
+		}
+		modifier = {
+		}
+		complete_effect = {
+			set_country_flag = embraced_far_left_philosophy
+			add_stability = -0.01
+		}
+		
+		icon = communism
+		
+		cost = 150
+		
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

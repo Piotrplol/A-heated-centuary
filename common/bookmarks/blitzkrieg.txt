@@ -1,0 +1,180 @@
+bookmarks = {
+	bookmark = {
+	name = "GATHERING_STORM_NAME"
+	desc = "GATHERING_STORM_DESC"
+	date = 2000.1.1.12
+	picture = "GFX_select_date_1936"
+	default_country = "USA"
+	default = yes
+	
+	"PRC"={
+		history = "PRC_GATHERING_STORM_DESC"
+		ideology = communist
+		ideas={
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"FRA"={
+		history = "FRA_GATHERING_STORM_DESC"
+		ideology = moderate_right_wing
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"GER"={
+		history = "GER_GATHERING_STORM_DESC"
+		ideology = moderate_left_wing
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"JAP"={
+		history = "JAP_GATHERING_STORM_DESC"
+		ideology = moderate_right_wing
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"SOV"={
+		history = "SOV_GATHERING_STORM_DESC"
+		ideology = communist
+		ideas = {
+		SOV_the_gangs_grip
+	    SOV_the_purges_aftermath
+	    SOV_economy_on_its_last_legs
+	    SOV_hope_dies_last
+		}
+		focuses = {
+		SOV_Yanayevs_union
+		}
+	}
+	"ENG"={
+		history = "ENG_GATHERING_STORM_DESC"
+		ideology = moderate_right_wing
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"USA"={
+		history = "USA_GATHERING_STORM_DESC"
+		ideology = centrist_deocracy
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	
+	"---"={
+		history = "OTHER_GATHERING_STORM_DESC"
+	}
+	
+	"DEN"={
+		minor = yes
+		history = "DEN_GATHERING_STORM_DESC"
+		ideology = moderate_left_wing
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"ETH"={
+		minor = yes
+		history = "ETH_GATHERING_STORM_DESC"
+		ideology = socialism
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"FIN"={
+		minor = yes
+		history = "FIN_GATHERING_STORM_DESC"
+		ideology = moderate_left_wing
+		ideas = {
+	
+		}
+		focuses = {
+		
+		}
+	}
+	"ICE"={
+		minor = yes
+		history = "ICE_GATHERING_STORM_DESC"
+		ideology = centrist_deocracy
+		ideas = {
+		}
+		focuses = {
+		
+		}
+	}
+	"ITA"={
+		minor = yes
+		history = "ITA_GATHERING_STORM_DESC"
+		ideology = socialism
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"NOR"={
+		minor = yes
+		history = "NOR_GATHERING_STORM_DESC"
+		ideology = moderate_right_wing
+		ideas = {
+		}
+		focuses = {
+		
+		}
+	}
+	"SWE"={
+		minor = yes
+		history = "SWE_GATHERING_STORM_DESC"
+		ideology = moderate_left_wing
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	"SWI"={
+		minor = yes
+		history = "SWI_GATHERING_STORM_DESC"
+		ideology = moderate_right_wing
+		ideas = {
+		
+		}
+		focuses = {
+		
+		}
+	}
+	
+	effect = {
+		randomize_weather = 22345 # <- Obligatory in every bookmark !
+		#123 = { rain_light = yes }
+	}
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=894
+	name="STATE_894"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			air_base = 1
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12455 5 
+		}
+
+	}
+
+	provinces={
+		1033 2027 2095 7970 12101 12455 
+	}
+	manpower=628400
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

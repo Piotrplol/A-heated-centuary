@@ -1,0 +1,25 @@
+
+state={
+	id=877
+	name="STATE_877"
+	history={
+		owner = AZR
+		add_core_of = AZR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11674 4
+		}
+
+	}
+
+	provinces={
+		1539 1610 11674 11704 
+	}
+	manpower=1794500
+	buildings_max_level_factor=1.000
+	state_category=state_level_3
+}

@@ -1,0 +1,105 @@
+focus_tree = {
+
+	id = generic_focus
+	
+	country = {
+		factor = 5
+	}
+	
+	focus = {
+		id = GEN_modernise_the_economy
+		icon = production
+		x = 5
+		y = 0
+		cost = 8
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = GEN_sort_out_political_matters
+		icon = demand_territory
+		x = 15
+		y = 0
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = GEN_an_army_for_21_centuary
+		icon = infantry_allies
+		x = 24
+		y = 0
+		cost = 10
+		
+		completion_reward = {
+			army_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = GEN_build_up_the_navy
+		icon = navy
+		x = 28
+		y = 0
+		cost = 10
+
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		completion_reward = {
+			navy_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	focus = {
+		id = GEN_renovate_the_air_force
+		icon = airforce
+		x = 32
+		y = 0
+		cost = 10
+		
+		completion_reward = {
+			air_experience = 10
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+			modifier = {
+				factor = 0
+		}
+	}
+	
+}

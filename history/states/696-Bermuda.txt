@@ -1,0 +1,21 @@
+state={
+	id=696
+	name="STATE_696"
+	manpower=61816	
+	state_category = state_level_1
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+			13010 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ENG
+	}
+	
+	provinces={
+		13010 
+	}
+}

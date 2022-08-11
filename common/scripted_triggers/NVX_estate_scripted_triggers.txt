@@ -1,0 +1,1116 @@
+# Written by E. Wolfe #
+### FOURTH ESTATES ###
+has_authoritarianism_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_authoritarianism1
+		has_idea = fourth_estate_authoritarianism2
+		has_idea = fourth_estate_authoritarianism3
+		has_idea = fourth_estate_authoritarianism4
+		has_idea = fourth_estate_authoritarianism5
+	}
+}
+
+has_far_right_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_far_right1
+		has_idea = fourth_estate_far_right2
+		has_idea = fourth_estate_far_right3
+		has_idea = fourth_estate_far_right4
+		has_idea = fourth_estate_far_right5
+	}
+}
+
+has_authoritarianism_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_authoritarianism1
+		has_idea = fourth_estate_authoritarianism2
+		has_idea = fourth_estate_authoritarianism3
+		has_idea = fourth_estate_authoritarianism4
+		has_idea = fourth_estate_authoritarianism5
+	}
+}
+
+has_authoritarianism_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_authoritarianism1
+		has_idea = fourth_estate_authoritarianism2
+		has_idea = fourth_estate_authoritarianism3
+		has_idea = fourth_estate_authoritarianism4
+		has_idea = fourth_estate_authoritarianism5
+	}
+}
+
+has_moderate_right_wing_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_moderate_right_wing1
+		has_idea = fourth_estate_moderate_right_wing2
+		has_idea = fourth_estate_moderate_right_wing3
+		has_idea = fourth_estate_moderate_right_wing4
+		has_idea = fourth_estate_moderate_right_wing5
+	}
+}
+
+has_moderate_right_wing_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_moderate_right_wing1
+		has_idea = fourth_estate_moderate_right_wing2
+		has_idea = fourth_estate_moderate_right_wing3
+		has_idea = fourth_estate_moderate_right_wing4
+		has_idea = fourth_estate_moderate_right_wing5
+	}
+}
+
+has_moderate_right_wing_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_moderate_right_wing1
+		has_idea = fourth_estate_moderate_right_wing2
+		has_idea = fourth_estate_moderate_right_wing3
+		has_idea = fourth_estate_moderate_right_wing4
+		has_idea = fourth_estate_moderate_right_wing5
+	}
+}
+
+has_centrist_deocracy_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_centrist_deocracy1
+		has_idea = fourth_estate_centrist_deocracy2
+		has_idea = fourth_estate_centrist_deocracy3
+		has_idea = fourth_estate_centrist_deocracy4
+		has_idea = fourth_estate_centrist_deocracy5
+	}
+}
+
+has_moderate_left_wing_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_moderate_left_wing1
+		has_idea = fourth_estate_moderate_left_wing2
+		has_idea = fourth_estate_moderate_left_wing3
+		has_idea = fourth_estate_moderate_left_wing4
+		has_idea = fourth_estate_moderate_left_wing5
+	}
+}
+
+has_moderate_left_wing_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_moderate_left_wing1
+		has_idea = fourth_estate_moderate_left_wing2
+		has_idea = fourth_estate_moderate_left_wing3
+		has_idea = fourth_estate_moderate_left_wing4
+		has_idea = fourth_estate_moderate_left_wing5
+	}
+}
+
+has_socialism_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_socialism1
+		has_idea = fourth_estate_socialism2
+		has_idea = fourth_estate_socialism3
+		has_idea = fourth_estate_socialism4
+		has_idea = fourth_estate_socialism5
+	}
+}
+
+has_communist_fourth_estate = {
+	OR = {
+		has_idea = fourth_estate_communist1
+		has_idea = fourth_estate_communist2
+		has_idea = fourth_estate_communist3
+		has_idea = fourth_estate_communist4
+		has_idea = fourth_estate_communist5
+	}
+}
+
+### FIFTH ESTATES ###
+has_authoritarianism_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_authoritarianism1
+		has_idea = fifth_estate_authoritarianism2
+		has_idea = fifth_estate_authoritarianism3
+		has_idea = fifth_estate_authoritarianism4
+		has_idea = fifth_estate_authoritarianism5
+	}
+}
+
+has_far_right_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_far_right1
+		has_idea = fifth_estate_far_right2
+		has_idea = fifth_estate_far_right3
+		has_idea = fifth_estate_far_right4
+		has_idea = fifth_estate_far_right5
+	}
+}
+
+has_authoritarianism_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_authoritarianism1
+		has_idea = fifth_estate_authoritarianism2
+		has_idea = fifth_estate_authoritarianism3
+		has_idea = fifth_estate_authoritarianism4
+		has_idea = fifth_estate_authoritarianism5
+	}
+}
+
+has_authoritarianism_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_authoritarianism1
+		has_idea = fifth_estate_authoritarianism2
+		has_idea = fifth_estate_authoritarianism3
+		has_idea = fifth_estate_authoritarianism4
+		has_idea = fifth_estate_authoritarianism5
+	}
+}
+
+has_moderate_right_wing_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_moderate_right_wing1
+		has_idea = fifth_estate_moderate_right_wing2
+		has_idea = fifth_estate_moderate_right_wing3
+		has_idea = fifth_estate_moderate_right_wing4
+		has_idea = fifth_estate_moderate_right_wing5
+	}
+}
+
+has_moderate_right_wing_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_moderate_right_wing1
+		has_idea = fifth_estate_moderate_right_wing2
+		has_idea = fifth_estate_moderate_right_wing3
+		has_idea = fifth_estate_moderate_right_wing4
+		has_idea = fifth_estate_moderate_right_wing5
+	}
+}
+
+has_moderate_right_wing_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_moderate_right_wing1
+		has_idea = fifth_estate_moderate_right_wing2
+		has_idea = fifth_estate_moderate_right_wing3
+		has_idea = fifth_estate_moderate_right_wing4
+		has_idea = fifth_estate_moderate_right_wing5
+	}
+}
+
+has_centrist_deocracy_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_centrist_deocracy1
+		has_idea = fifth_estate_centrist_deocracy2
+		has_idea = fifth_estate_centrist_deocracy3
+		has_idea = fifth_estate_centrist_deocracy4
+		has_idea = fifth_estate_centrist_deocracy5
+	}
+}
+
+has_moderate_left_wing_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_moderate_left_wing1
+		has_idea = fifth_estate_moderate_left_wing2
+		has_idea = fifth_estate_moderate_left_wing3
+		has_idea = fifth_estate_moderate_left_wing4
+		has_idea = fifth_estate_moderate_left_wing5
+	}
+}
+
+has_moderate_left_wing_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_moderate_left_wing1
+		has_idea = fifth_estate_moderate_left_wing2
+		has_idea = fifth_estate_moderate_left_wing3
+		has_idea = fifth_estate_moderate_left_wing4
+		has_idea = fifth_estate_moderate_left_wing5
+	}
+}
+
+has_socialism_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_socialism1
+		has_idea = fifth_estate_socialism2
+		has_idea = fifth_estate_socialism3
+		has_idea = fifth_estate_socialism4
+		has_idea = fifth_estate_socialism5
+	}
+}
+
+has_communist_fifth_estate = {
+	OR = {
+		has_idea = fifth_estate_communist1
+		has_idea = fifth_estate_communist2
+		has_idea = fifth_estate_communist3
+		has_idea = fifth_estate_communist4
+		has_idea = fifth_estate_communist5
+	}
+}
+
+has_ideologue_to_reduce_aberrant_shifts = {
+	OR = {
+		has_idea_with_trait = authoritarianism_politician
+		has_idea_with_trait = far_right_politician
+		has_idea_with_trait = authoritarianism_politician
+		has_idea_with_trait = authoritarianism_politician
+		has_idea_with_trait = moderate_right_wing_politician
+		has_idea_with_trait = moderate_right_wing_politician
+		has_idea_with_trait = moderate_right_wing_politician
+		has_idea_with_trait = centrist_deocracy_politician
+		has_idea_with_trait = moderate_left_wing_politician
+		has_idea_with_trait = moderate_left_wing_politician
+		has_idea_with_trait = socialism_politician
+		has_idea_with_trait = communist_politician
+	}
+}
+
+### ESTATE EVENT TRIGGERS ###
+fourth_estate_has_targeted_flag = {
+	OR = {
+		has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		has_country_flag = NVX_flag_fourth_estate_far_right
+		has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		has_country_flag = NVX_flag_fourth_estate_centrist_deocracy
+		has_country_flag = NVX_flag_fourth_estate_moderate_left_wing
+		has_country_flag = NVX_flag_fourth_estate_moderate_left_wing
+		has_country_flag = NVX_flag_fourth_estate_socialism
+		has_country_flag = NVX_flag_fourth_estate_communist
+	}
+}
+
+fifth_estate_has_targeted_flag = {
+	OR = {
+		has_country_flag = NVX_flag_fifth_estate_authoritarianism
+		has_country_flag = NVX_flag_fifth_estate_far_right
+		has_country_flag = NVX_flag_fifth_estate_authoritarianism
+		has_country_flag = NVX_flag_fifth_estate_authoritarianism
+		has_country_flag = NVX_flag_fifth_estate_moderate_right_wing
+		has_country_flag = NVX_flag_fifth_estate_moderate_right_wing
+		has_country_flag = NVX_flag_fifth_estate_moderate_right_wing
+		has_country_flag = NVX_flag_fifth_estate_centrist_deocracy
+		has_country_flag = NVX_flag_fifth_estate_moderate_left_wing
+		has_country_flag = NVX_flag_fifth_estate_moderate_left_wing
+		has_country_flag = NVX_flag_fifth_estate_socialism
+		has_country_flag = NVX_flag_fifth_estate_communist
+	}
+}
+
+fourth_estate_expand_or_found = {
+	OR = {
+		AND = {
+			has_authoritarianism_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_far_right_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_far_right
+		}
+		AND = {
+			has_authoritarianism_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_authoritarianism_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_moderate_right_wing_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_moderate_right_wing_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_moderate_right_wing_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_centrist_deocracy_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_centrist_deocracy
+		}
+		AND = {
+			has_moderate_left_wing_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_moderate_left_wing
+		}
+		AND = {
+			has_moderate_left_wing_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_moderate_left_wing
+		}
+		AND = {
+			has_socialism_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_socialism
+		}
+		AND = {
+			has_communist_fourth_estate = yes
+			has_country_flag = NVX_flag_fourth_estate_communist
+		}
+	}
+}
+
+fourth_estate_downscale_or_foreclose = {
+	OR = {
+		AND = {
+			has_idea = fourth_estate_authoritarianism1
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_idea = fourth_estate_far_right1
+			has_country_flag = NVX_flag_fourth_estate_far_right
+		}
+		AND = {
+			has_idea = fourth_estate_authoritarianism1
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_idea = fourth_estate_authoritarianism1
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_idea = fourth_estate_moderate_right_wing1
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_idea = fourth_estate_moderate_right_wing1
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_idea = fourth_estate_moderate_right_wing1
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_idea = fourth_estate_centrist_deocracy1
+			has_country_flag = NVX_flag_fourth_estate_centrist_deocracy
+		}
+		AND = {
+			has_idea = fourth_estate_moderate_left_wing1
+			has_country_flag = NVX_flag_fourth_estate_moderate_left_wing
+		}
+		AND = {
+			has_idea = fourth_estate_moderate_left_wing1
+			has_country_flag = NVX_flag_fourth_estate_moderate_left_wing
+		}
+		AND = {
+			has_idea = fourth_estate_socialism1
+			has_country_flag = NVX_flag_fourth_estate_socialism
+		}
+		AND = {
+			has_idea = fourth_estate_communist1
+			has_country_flag = NVX_flag_fourth_estate_communist
+		}
+	}
+}
+
+fourth_estate_expand_same_ideology = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_government = far_right
+			has_country_flag = NVX_flag_fourth_estate_far_right
+		}
+		AND = {
+			has_government = authoritarianism
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_government = authoritarianism
+			has_country_flag = NVX_flag_fourth_estate_authoritarianism
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_country_flag = NVX_flag_fourth_estate_moderate_right_wing
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_country_flag = NVX_flag_fourth_estate_centrist_deocracy
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_country_flag = NVX_flag_fourth_estate_moderate_left_wing
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_country_flag = NVX_flag_fourth_estate_moderate_left_wing
+		}
+		AND = {
+			has_government = socialism
+			has_country_flag = NVX_flag_fourth_estate_socialism
+		}
+		AND = {
+			has_government = communist
+			has_country_flag = NVX_flag_fourth_estate_communist
+		}
+	}
+}
+
+estates_has_government_left_wing = {
+	has_government = centrist_deocracy
+	has_government = moderate_left_wing
+	has_government = moderate_left_wing
+	has_government = socialism
+	has_government = communist
+}
+
+estates_has_government_outlier = {
+	has_government = authoritarianism
+	has_government = authoritarianism
+	has_government = moderate_right_wing
+}
+
+estates_has_government_right_wing = {
+	has_government = far_right
+	has_government = authoritarianism
+	has_government = moderate_right_wing
+	has_government = moderate_right_wing
+}
+
+estates_has_own_fourth_estate1 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism1
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right1
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism1
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism1
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing1
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing1
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing1
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy1
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing1
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing1
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism1
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist1
+		}
+	}
+}
+
+estates_has_own_fourth_estate2 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism2
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right2
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism2
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism2
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing2
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing2
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing2
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy2
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing2
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing2
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism2
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist2
+		}
+	}
+}
+
+estates_has_own_fourth_estate3 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism3
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right3
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism3
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism3
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing3
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing3
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing3
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy3
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing3
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing3
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism3
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist3
+		}
+	}
+}
+
+estates_has_own_fourth_estate4 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism4
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right4
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism4
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism4
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing4
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing4
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing4
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy4
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing4
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing4
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism4
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist4
+		}
+	}
+}
+
+estates_has_own_fourth_estate5 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism5
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right5
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism5
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism5
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing5
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing5
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing5
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy5
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing5
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing5
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism5
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist5
+		}
+	}
+}
+
+## AI TRIGGERS ##
+estates_has_own_fourth_estate_wants_more1 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism1
+			authoritarianism < 0.30
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right1
+			far_right < 0.30
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism1
+			authoritarianism < 0.30
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism1
+			authoritarianism < 0.30
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing1
+			moderate_right_wing < 0.30
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing1
+			moderate_right_wing < 0.30
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing1
+			moderate_right_wing < 0.30
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy1
+			centrist_deocracy < 0.30
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing1
+			moderate_left_wing < 0.30
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing1
+			moderate_left_wing < 0.30
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism1
+			socialism < 0.30
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist1
+			communist < 0.30
+		}
+	}
+}
+
+estates_has_own_fourth_estate_wants_more2 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism2
+			authoritarianism < 0.40
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right2
+			far_right < 0.40
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism2
+			authoritarianism < 0.40
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism2
+			authoritarianism < 0.40
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing2
+			moderate_right_wing < 0.40
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing2
+			moderate_right_wing < 0.40
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing2
+			moderate_right_wing < 0.40
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy2
+			centrist_deocracy < 0.40
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing2
+			moderate_left_wing < 0.40
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing2
+			moderate_left_wing < 0.40
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism2
+			socialism < 0.40
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist2
+			communist < 0.40
+		}
+	}
+}
+
+estates_has_own_fourth_estate_wants_more3 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism3
+			authoritarianism < 0.40
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right3
+			far_right < 0.40
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism3
+			authoritarianism < 0.40
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism3
+			authoritarianism < 0.40
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing3
+			moderate_right_wing < 0.40
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing3
+			moderate_right_wing < 0.40
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing3
+			moderate_right_wing < 0.40
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy3
+			centrist_deocracy < 0.40
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing3
+			moderate_left_wing < 0.40
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing3
+			moderate_left_wing < 0.40
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism3
+			socialism < 0.40
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist3
+			communist < 0.40
+		}
+	}
+}
+
+estates_has_own_fourth_estate_wants_more4 = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism4
+			authoritarianism < 0.50
+		}
+		AND = {
+			has_government = far_right
+			has_idea = fourth_estate_far_right4
+			far_right < 0.50
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism4
+			authoritarianism < 0.50
+		}
+		AND = {
+			has_government = authoritarianism
+			has_idea = fourth_estate_authoritarianism4
+			authoritarianism < 0.50
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing4
+			moderate_right_wing < 0.50
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing4
+			moderate_right_wing < 0.50
+		}
+		AND = {
+			has_government = moderate_right_wing
+			has_idea = fourth_estate_moderate_right_wing4
+			moderate_right_wing < 0.50
+		}
+		AND = {
+			has_government = centrist_deocracy
+			has_idea = fourth_estate_centrist_deocracy4
+			centrist_deocracy < 0.50
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing4
+			moderate_left_wing < 0.50
+		}
+		AND = {
+			has_government = moderate_left_wing
+			has_idea = fourth_estate_moderate_left_wing4
+			moderate_left_wing < 0.50
+		}
+		AND = {
+			has_government = socialism
+			has_idea = fourth_estate_socialism4
+			socialism < 0.50
+		}
+		AND = {
+			has_government = communist
+			has_idea = fourth_estate_communist4
+			communist < 0.50
+		}
+	}
+}
+
+social_media_blackout_trigger = {
+	AND = {
+		original_tag = PRK
+		has_government = communist
+	}
+}
+
+## EVENT OPTION TRIGGERS ##
+
+NVX_estates_has_government_system_pol = {
+	OR = {
+		has_idea = government_system_presidential_republic
+		has_idea = government_system_absolute_monarchy
+		has_idea = government_system_autocracy
+		has_idea = government_system_imperial
+	}
+}
+
+NVX_estates_has_government_system_fisc = {
+	OR = {
+		has_idea = government_system_parliamentary_republic
+		has_idea = government_system_constitutional_monarchy
+		has_idea = government_system_one_party
+	}
+}
+
+NVX_estates_injuction_trigger = {
+	has_idea = civil_liberties_restricted
+	OR = {
+		AND = {
+			NVX_estates_has_government_system_pol = yes
+			has_political_power > 0
+		}
+		AND = {
+			NVX_estates_has_government_system_fisc = yes
+			check_variable = { NVX_ECO_health > -100 }
+		}
+	}
+}
+
+NVX_estates_shutdown_trigger = {
+	has_idea = public_safety_secret_police
+	has_political_power > 0
+}
+
+NVX_estates_bailout_trigger = {
+	NOT = { has_government = moderate_right_wing }
+	OR = {
+		AND = {
+			NVX_estates_has_government_system_pol = yes
+			has_political_power > 0
+		}
+		AND = {
+			NVX_estates_has_government_system_fisc = yes
+			check_variable = { NVX_ECO_health > -100 }
+		}
+	}
+}
+
+# AI MODIFIERS #
+
+NVX_estates_low_popularity = {
+	OR = {
+		AND = {
+			has_government = authoritarianism
+			authoritarianism < 0.35
+		}
+		AND = {
+			has_government = far_right
+			far_right < 0.35
+		}
+		AND = {
+			has_government = authoritarianism
+			authoritarianism < 0.35
+		}
+		AND = {
+			has_government = authoritarianism
+			authoritarianism < 0.35
+		}
+		AND = {
+			has_government = moderate_right_wing
+			moderate_right_wing < 0.35
+		}
+		AND = {
+			has_government = moderate_right_wing
+			moderate_right_wing < 0.35
+		}
+		AND = {
+			has_government = moderate_right_wing
+			moderate_right_wing < 0.35
+		}
+		AND = {
+			has_government = centrist_deocracy
+			centrist_deocracy < 0.35
+		}
+		AND = {
+			has_government = moderate_left_wing
+			moderate_left_wing < 0.35
+		}
+		AND = {
+			has_government = moderate_left_wing
+			moderate_left_wing < 0.35
+		}
+		AND = {
+			has_government = socialism
+			socialism < 0.35
+		}
+		AND = {
+			has_government = communist
+			communist < 0.35
+		}
+	}
+}
+
+# Written by E. Wolfe #

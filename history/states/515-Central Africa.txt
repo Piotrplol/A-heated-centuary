@@ -1,0 +1,22 @@
+
+state={
+	id=515
+	name="STATE_515"
+
+	history={
+		owner = CHA
+		add_core_of = CHA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4902 5136 10893 
+	}
+	manpower=214274
+	buildings_max_level_factor=1.000
+	state_category=state_level_0
+}

@@ -1,0 +1,92 @@
+ideas = {
+
+
+	country= {
+
+		SOV_hope_dies_last = {
+			picture = EST_democratic_opposition
+			removal_cost = -1
+			
+			allowed = {
+				always = no 
+			}
+
+
+			modifier = {
+			drift_defence_factor = -0.3
+			communist_drift = -0.1
+			}
+		}
+		
+		SOV_the_gangs_grip = {
+			picture = SOV_cpsu_chains
+			removal_cost = -1
+			
+			allowed = {
+				always = no 
+			}
+
+
+			modifier = {
+			political_power_factor = 0.1
+			}
+		}
+		
+		SOV_economy_on_its_last_legs = {
+
+			removal_cost = -1
+
+			
+			picture = SOV_bad_economy
+			
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.4
+				production_factory_efficiency_gain_factor = -0.15
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.5
+			}
+		}
+		
+		SOV_economy_on_its_last_legs_2 = {
+
+			removal_cost = -1
+
+			picture = SOV_bad_economy
+			name = SOV_economy_on_its_last_legs
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.4
+				production_factory_efficiency_gain_factor = -0.05
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.5
+			}
+		}
+
+		SOV_the_purges_aftermath = {
+
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via purges
+			}
+
+			picture = SOV_cpsu_chains
+
+			
+			modifier = {
+				army_org_factor = -0.2
+				army_defence_factor = -0.3
+				army_attack_factor = 0.3
+				supply_consumption_factor = 0.2
+				custom_modifier_tooltip = SOV_purged_junior_army_officers_2_tt
+			}
+		}
+    }
+}

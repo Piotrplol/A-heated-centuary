@@ -1,0 +1,82 @@
+economic_policy = {
+	
+	seize_the_means_of_production = {
+		visible = {
+			NOT = { has_government = communist }
+			communist > 0.05
+		}
+		available = {
+			NOT = { has_government = far_right }
+			NOT = { has_government = authoritarianism }
+			NOT = { has_government = moderate_right_wing }
+			OR = {
+				moderate_left_wing > 0.15
+				socialism > 0.15
+				communist > 0.15
+			}
+		}
+		modifier = {
+		}
+		complete_effect = {
+			add_stability = -0.02
+			add_war_support = -0.02
+			add_popularity = {
+				ideology = communist
+				popularity = 0.03
+			}
+			create_random_factory_CIV_1 = yes
+		}
+		
+		icon = communism
+		
+		cost = 150
+		days_re_enable = 1825
+		
+		ai_will_do = {
+			base = 0
+			modifier = { has_government = communist add = 8 }
+			modifier = { has_government = socialism add = 2 }
+		}
+	}
+	
+	state_corporatist_reforms = {
+		visible = {
+			NOT = { has_government = far_right }
+			far_right > 0.05
+		}
+		available = {
+			NOT = { has_government = moderate_left_wing }
+			NOT = { has_government = moderate_left_wing }
+			NOT = { has_government = centrist_deocracy }
+			NOT = { has_government = socialism }
+			NOT = { has_government = moderate_right_wing }
+			OR = {
+				far_right > 0.15
+				authoritarianism > 0.15
+			}
+		}
+		modifier = {
+		}
+		complete_effect = {
+			add_stability = -0.02
+			add_war_support = -0.02
+			add_popularity = {
+				ideology = far_right
+				popularity = 0.03
+			}
+			create_random_factory_MIL_1 = yes
+		}
+		
+		icon = fascism
+		
+		cost = 150
+		days_re_enable = 1825
+		
+		ai_will_do = {
+			base = 0
+			modifier = { has_government = far_right add = 8 }
+			modifier = { has_government = authoritarianism add = 2 }
+		}
+	}
+	
+}

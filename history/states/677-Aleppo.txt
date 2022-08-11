@@ -1,0 +1,34 @@
+
+state={
+	id=677
+	name="STATE_677"
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		victory_points = {
+			12473 20 
+		}
+		victory_points = {
+			7140 2 
+		}
+		victory_points = {
+			7671 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 4
+
+		}
+
+	}
+
+	provinces={
+		7140 7671 12473 13322 
+	}
+	manpower=4649000
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

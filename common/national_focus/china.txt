@@ -1,0 +1,29 @@
+focus_tree = {
+
+	id = china_focus
+	
+	country = {
+		factor = 10
+	}
+	
+	focus = {
+		id = CHI_the_spirit_of_chiang_guides_us
+		icon = production
+		x = 5
+		y = 0
+		cost = 10
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.35
+				uses = 2
+				category = industry
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+			}
+		}
+	}

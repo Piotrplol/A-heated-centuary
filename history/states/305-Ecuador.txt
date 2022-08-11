@@ -1,0 +1,29 @@
+state = {
+	id = 305
+	name = "STATE_305"
+	manpower = 12209000
+	state_category = state_level_17
+	
+	resources = {
+		oil = 33
+	}
+	
+	history = {
+		owner = ECU
+		add_core_of = ECU
+		victory_points = { 12798 5 }
+		victory_points = { 8252 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 1
+			air_base = 2
+			8252 = { naval_base = 3 }
+		}
+	}
+	
+	provinces = {
+		5051 5120 8047 8252 11020 12798 
+	}
+}

@@ -1,0 +1,27 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_ideology_JAP_moderate_right_wing_group"
+		texturefile = "gfx/interface/ideologies/JAP/LDP_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_centrist_deocracy_group"
+		texturefile = "gfx/interface/ideologies/JAP/Rikken_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_socialism_group"
+		texturefile = "gfx/interface/ideologies/JAP/JCP_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RYU_moderate_right_wing_group"
+		texturefile = "gfx/interface/ideologies/RYU/Sozo_logo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RYU_moderate_left_wing_group"
+		texturefile = "gfx/interface/ideologies/RYU/OSMP_logo.dds"
+	}
+}

@@ -1,0 +1,78 @@
+seek_CSTO_membership = {
+	
+	enable = {
+	
+		NOT = { tag = SOV }
+		
+		SOV = { is_in_faction = yes }
+		
+		OR = {		#These countries should always desire membership
+			tag = BLR
+			tag = SOS
+			tag = ABK
+			tag = KAZ
+			tag = TJI
+			tag = KYR
+			tag = ARM
+			tag = NGK
+			has_country_flag = has_joined_CSTO_by_event
+		}
+		
+		NOT = { has_country_flag = left_CSTO }
+		
+		OR = {
+			has_government = authoritarianism
+			has_government = authoritarianism
+			has_government = moderate_right_wing
+			has_government = moderate_right_wing
+			has_government = moderate_right_wing
+			has_government = centrist_deocracy
+			has_government = moderate_left_wing
+		}
+		
+		OR = {
+			SOV = { has_government = authoritarianism }
+			SOV = { has_government = authoritarianism }
+			SOV = { has_government = moderate_right_wing }
+			SOV = { has_government = moderate_right_wing }
+			SOV = { has_government = moderate_right_wing }
+			SOV = { has_government = centrist_deocracy }
+			SOV = { has_government = moderate_left_wing }
+		}
+		
+	}
+	
+	abort = {
+		OR = {
+			has_war_with = SOV
+			SOV = { is_in_faction = no }
+			has_country_flag = left_CSTO
+			OR = {
+				has_government = authoritarianism
+				has_government = communist
+				has_government = far_right
+				has_government = moderate_left_wing
+				has_government = socialism
+			}
+			OR = {
+				SOV = { has_government = authoritarianism }
+				SOV = { has_government = communist }
+				SOV = { has_government = far_right }
+				SOV = { has_government = socialism }
+				SOV = { has_government = moderate_left_wing }
+			}
+			SOV = { exists = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SOV"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 125
+	}
+}

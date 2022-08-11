@@ -1,0 +1,24 @@
+state={
+	id=881
+	name="STATE_881"
+	provinces={
+		13221 
+	}
+		
+	history = {
+		owner = ISR
+		add_core_of = SYR
+		
+		buildings = {
+			infrastructure = 3
+			13221 = { bunker = 4 }
+		}
+		
+		victory_points = { 13221 1 }
+	}
+		
+	manpower=40000
+	buildings_max_level_factor=1.000
+	
+	state_category = state_level_0
+}

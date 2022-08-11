@@ -1,0 +1,1043 @@
+ruling_party_support_+1 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.01
+		}
+	}
+}
+
+ruling_party_support_+2 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.02
+		}
+	}
+}
+
+ruling_party_support_+3 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.03
+		}
+	}
+}
+
+ruling_party_support_+4 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.04
+		}
+	}
+}
+
+ruling_party_support_+5 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.05
+		}
+	}
+}
+
+ruling_party_support_+6 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.06
+		}
+	}
+}
+
+ruling_party_support_+7 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.07
+		}
+	}
+}
+
+ruling_party_support_+8 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.08
+		}
+	}
+}
+
+ruling_party_support_+9 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.09
+		}
+	}
+}
+
+ruling_party_support_+10 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.10
+		}
+	}
+}
+
+ruling_party_support_+15 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.15
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.15
+		}
+	}
+}
+
+ruling_party_support_+20 = {
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = far_right }
+		add_popularity = {
+			ideology = far_right
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = authoritarianism }
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = moderate_right_wing }
+		add_popularity = {
+			ideology = moderate_right_wing
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = centrist_deocracy }
+		add_popularity = {
+			ideology = centrist_deocracy
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = moderate_left_wing }
+		add_popularity = {
+			ideology = moderate_left_wing
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = socialism }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.20
+		}
+	}
+	if = {
+		limit = { has_government = communist }
+		add_popularity = {
+			ideology = communist
+			popularity = 0.20
+		}
+	}
+}

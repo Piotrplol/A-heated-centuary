@@ -1,0 +1,214 @@
+SOV_increase_yazov_influence_5 = {
+	custom_effect_tooltip = SOV_increase_yazov_influence_5_tt
+	add_to_variable = {
+				var = SOV_Yazov_influence
+				value = 5
+			}
+}
+
+SOV_increase_yazov_influence_10 = {
+	custom_effect_tooltip = SOV_increase_yazov_influence_10_tt
+	add_to_variable = {
+				var = SOV_Yazov_influence
+				value = 10
+			}
+}
+
+SOV_decrease_yazov_influence_10 = {
+	custom_effect_tooltip = SOV_decrease_yazov_influence_10_tt
+	add_to_variable = {
+				var = SOV_Yazov_influence
+				value = -10
+			}
+}
+
+SOV_decrease_yazov_influence_5 = {
+	custom_effect_tooltip = SOV_decrease_yazov_influence_5_tt
+	add_to_variable = {
+				var = SOV_Yazov_influence
+				value = -5
+			}
+}
+
+SOV_bring_oleg_under_yazov = {
+	custom_effect_tooltip = SOV_Oleg_loyal_to_Yazov_tt
+	set_country_flag = SOV_Oleg_loyal_to_Yazov
+}
+
+SOV_bring_oleg_under_Yanayev = {
+	custom_effect_tooltip = SOV_Oleg_loyal_to_Yanayev_tt
+	set_country_flag = SOV_Oleg_loyal_to_Yanayev
+}
+
+SOV_increase_relations_with_valentin_5 = {
+	custom_effect_tooltip = SOV_increase_relations_with_valentin_5_tt
+	add_to_variable = {
+				var = SOV_Valentin_relations_var
+				value = 5
+			}
+}
+
+SOV_increase_relations_with_valentin_10 = {
+	custom_effect_tooltip = SOV_increase_relations_with_valentin_10_tt
+	add_to_variable = {
+				var = SOV_Valentin_relations_var
+				value = 10
+			}
+}
+
+SOV_decrease_relations_with_valentin_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_valentin_5_tt
+	add_to_variable = {
+				var = SOV_Valentin_relations_var
+				value = -10
+			}
+}
+
+SOV_decrease_relations_with_valentin_influence_2_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_valentin_2_5_tt
+	add_to_variable = {
+				var = SOV_Valentin_relations_var
+				value = -2.5
+			}
+}
+
+
+
+
+
+
+SOV_increase_relations_with_boris_5 = {
+	custom_effect_tooltip = SOV_increase_relations_with_boris_5_tt
+	add_to_variable = {
+				var = SOV_Boris_relations_var
+				value = 5
+			}
+}
+
+SOV_increase_relations_with_boris_10 = {
+	custom_effect_tooltip = SOV_increase_relations_with_boris_10_tt
+	add_to_variable = {
+				var = SOV_Boris_relations_var
+				value = 10
+			}
+}
+
+SOV_decrease_relations_with_boris_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_boris_5_tt
+	add_to_variable = {
+				var = SOV_Boris_relations_var
+				value = -10
+			}
+}
+
+SOV_decrease_relations_with_boris_influence_2_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_boris_2_5_tt
+	add_to_variable = {
+				var = SOV_Boris_relations_var
+				value = -2.5
+			}
+}
+
+
+
+SOV_increase_relations_with_Vladimir_5 = {
+	custom_effect_tooltip = SOV_increase_relations_with_Vladimir_5_tt
+	add_to_variable = {
+				var = SOV_Vladimir_relations_var
+				value = 5
+			}
+}
+
+SOV_increase_relations_with_Vladimir_10 = {
+	custom_effect_tooltip = SOV_increase_relations_with_Vladimir_10_tt
+	add_to_variable = {
+				var = SOV_Vladimir_relations_var
+				value = 10
+			}
+}
+
+SOV_decrease_relations_with_Vladimir_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_Vladimir_5_tt
+	add_to_variable = {
+				var = SOV_Vladimir_relations_var
+				value = -10
+			}
+}
+
+SOV_decrease_relations_with_Vladimir_influence_2_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_Vladimir_2_5_tt
+	add_to_variable = {
+				var = SOV_Vladimir_relations_var
+				value = -2.5
+			}
+}
+
+
+
+
+SOV_increase_relations_with_Vasiliy_5 = {
+	custom_effect_tooltip = SOV_increase_relations_with_Vasiliy_5_tt
+	add_to_variable = {
+				var = SOV_Vasiliy_relations_var
+				value = 5
+			}
+}
+
+SOV_increase_relations_with_Vasiliy_10 = {
+	custom_effect_tooltip = SOV_increase_relations_with_Vasiliy_10_tt
+	add_to_variable = {
+				var = SOV_Vasiliy_relations_var
+				value = 10
+			}
+}
+
+SOV_decrease_relations_with_Vasiliy_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_Vasiliy_5_tt
+	add_to_variable = {
+				var = SOV_Vasiliy_relations_var
+				value = -10
+			}
+}
+
+SOV_decrease_relations_with_Vasiliy_influence_2_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_Vasiliy_2_5_tt
+	add_to_variable = {
+				var = SOV_Vasiliy_relations_var
+				value = -2.5
+			}
+}
+
+
+
+
+SOV_increase_relations_with_Aleksandr_5 = {
+	custom_effect_tooltip = SOV_increase_relations_with_Aleksandr_5_tt
+	add_to_variable = {
+				var = SOV_Aleksandr_relations_var
+				value = 5
+			}
+}
+
+SOV_increase_relations_with_Aleksandr_10 = {
+	custom_effect_tooltip = SOV_increase_relations_with_Aleksandr_10_tt
+	add_to_variable = {
+				var = SOV_Aleksandr_relations_var
+				value = 10
+			}
+}
+
+SOV_decrease_relations_with_Aleksandr_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_Aleksandr_5_tt
+	add_to_variable = {
+				var = SOV_Aleksandr_relations_var
+				value = -10
+			}
+}
+
+SOV_decrease_relations_with_Aleksandr_influence_2_5 = {
+	custom_effect_tooltip = SOV_decrease_relations_with_Aleksandr_2_5_tt
+	add_to_variable = {
+				var = SOV_Aleksandr_relations_var
+				value = -2.5
+			}
+}
